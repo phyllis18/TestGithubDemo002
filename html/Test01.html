@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网页首页基本布局</title>
+    <style>
+        #container{
+            width: 1002px;
+            background: gray;
+            /*把所有元素限制在1002像素的宽度里*/
+            margin: 0 auto;
+            /*首页居中*/
+        }
+        #header{
+            height: 120px;
+            background: orange;
+        }
+        #main{
+            background: green;
+            height: 600px;
+        }
+        #lSide{
+            width: 700px;
+            height: 600px;
+            float: left;
+            background: pink;
+        }
+        .four{
+            width: 330px;
+            height: 280px;
+            background: white;
+            margin: 5px;
+            /*padding: 10px;*/
+            float: left;
+             
+        }
+
+        #rSide{
+            width: 302px;
+            height: 600px;
+            background: purple;
+            float: right;
+        }
+        #footer{
+            height: 120px;
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+
+<div id="container">
+    <div id="header"></div>
+    <div id="main">
+        <div id="lSide">
+            <div class="four">
+                对于 td 和 th 对象而言默认值为 1 。
+                其他对象的默认值为 0 。
+                如果提供全部四个参数值，将按上－右－下－左的顺序作用于四边。
+                如果只提供一个，将用于全部的四条边。
+                如果提供两个，第一个用于上－下，第二个用于左－右。
+                </div>
+            <div class="four">对于 td 和 th 对象而言默认值为 1 。
+                其他对象的默认值为 0 。
+                如果提供全部四个参数值，将按上－右－下－左的顺序作用于四边。
+                如果只提供一个，将用于全部的四条边。
+                如果提供两个，第一个用于上－下，第二个用于左－右。</div>
+            <div class="four">对于 td 和 th 对象而言默认值为 1 。
+                其他对象的默认值为 0 。
+                如果提供全部四个参数值，将按上－右－下－左的顺序作用于四边。
+                如果只提供一个，将用于全部的四条边。
+                如果提供两个，第一个用于上－下，第二个用于左－右。</div>
+            <div class="four">对于 td 和 th 对象而言默认值为 1 。
+                其他对象的默认值为 0 。
+                如果提供全部四个参数值，将按上－右－下－左的顺序作用于四边。
+                如果只提供一个，将用于全部的四条边。
+                如果提供两个，第一个用于上－下，第二个用于左－右。</div>
+
+        </div>
+        <div id="rSide"></div>
+    </div>
+    <div id="footer"></div>
+</div>
+
+</body>
+</html>

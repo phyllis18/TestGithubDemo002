@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>大图片背景</title>
+    <style>
+        #test1{
+            border: 1px solid orange;
+            width: 1000px;
+            height: 800px;
+            background-image: url(../picture/1.jpg);
+            /*设计图片不完全平铺满整个容器*/
+            background-repeat: no-repeat;
+            background-position:50px  10px;
+
+        }
+        #test2{
+            width: 30px;
+            height: 30px;
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+<div id="test1"></div>
+<div id="test2"></div>
+</body>
+</html>

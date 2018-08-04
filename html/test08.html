@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内联与块状的转换</title>
+    <style>
+        span{
+            width: 200px;
+            height: 200px;
+            background: yellow;
+            display: block;
+            /*强制转换为块内元素*/
+
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            background: green;
+            display: inline;
+            /*强制转换为行内元素*/
+        }
+        #none{
+            width: 200px;
+            height: 200px;
+            background: grey;
+            display: none;
+            /*为none时均不显示，相当于此段代码是无效的*/
+        }
+
+    </style>
+</head>
+<body>
+    <span>行内</span>
+    <div>块内</div>
+<div id="none">没有</div>
+</body>
+</html>

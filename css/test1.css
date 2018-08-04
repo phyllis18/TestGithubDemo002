@@ -1,0 +1,7 @@
+/*引入test2.css的属性共同装饰test1*/
+@import url(test2.css);
+#test1{
+    width: 100px;
+    height: 100px;
+    background: red;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>伪类</title>
+    <style>
+
+        a:link{
+            color: red;
+            /*可以直接简写为a.鼠标点击链接后变成红色，松开手后又变回原来的颜色*/
+        }
+        /*链接的颜色为orange*/
+        a:visited{
+            color: orange;
+        }
+        /*鼠标移动到链接的时候显示为yellow*/
+        a:hover{
+            color: yellow;
+        }
+        /*不常用。鼠标点击链接后变成绿色，但是松开鼠标后又变回原来的颜色*/
+        a:active{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <a href="#">空链接</a>
+    <a href="#">空链接</a>
+    <a href="#">空链接</a>
+    <a href="#">空链接</a>
+</div>
+</body>
+</html>

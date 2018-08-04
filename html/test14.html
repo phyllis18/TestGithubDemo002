@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格的设计</title>
+    <style>
+        td{
+            border: 2px solid blue;
+        }
+        table{
+            /*!*设置单元格融合*!*/
+            border-collapse: collapse;
+            /*设置单元格之间的距离为10*/
+            /*border-spacing: 10px;*/
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <!--从1开始从左往右四个单元格合并-->
+        <td colspan="4">1</td>
+        <!--<td>2</td>-->
+        <!--<td>3</td>-->
+        <!--<td>4</td>-->
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <!--从14开始从上到下两个单元格合并-->
+        <td rowspan="2">14</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <!--<td>24</td>-->
+    </tr>
+</table>
+</body>
+</html>
